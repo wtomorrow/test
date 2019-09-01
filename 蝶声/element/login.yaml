@@ -1,0 +1,77 @@
+---
+#用户登录
+#第一步：点击密码
+ww: com.qk.butterfly:id/v_login_pwd
+#第二步：输入账号
+zhanghao: com.qk.butterfly:id/et_login_phone
+#第三步：输入密码
+mima: com.qk.butterfly:id/et_login_pwd
+#第四部：点击登录
+deng: com.qk.butterfly:id/tv_to_login
+#设置断言
+duan: com.qk.butterfly:id/tv_home_live
+yan: com.qk.butterfly:id/tv_unknow_pwd
+
+#用户退出
+#第一步：点击我的
+xx:
+  - android:id/tabs
+  - android.widget.RelativeLayout
+#第二步：点击设置
+she: com.qk.butterfly:id/v_me_setting
+#第三步：点击退出登录
+tui: com.qk.butterfly:id/v_set_out
+#第四步：确认退出
+hoo: com.qk.butterfly:id/tv_ok
+
+#更改昵称
+#第一步：点击我的
+wx:
+  - android:id/tabs
+  - android.widget.RelativeLayout
+#第二步：点击编辑资料
+bianji: com.qk.butterfly:id/v_me_detail
+#第三步：点击昵称
+nicheng: com.qk.butterfly:id/v_profile_name
+#点击输入框
+nn: com.qk.butterfly:id/et_note
+#点击保存
+baocun: com.qk.butterfly:id/tv_top_right
+
+#性别更改
+#第一步：点击我的
+qx:
+  - android:id/tabs
+  - android.widget.RelativeLayout
+#第二步：点击编辑资料
+bianxie: com.qk.butterfly:id/v_me_detail
+#第三步：点击性别
+sex: com.qk.butterfly:id/v_profile_sex
+#第四步：选择性别
+nv:
+  - com.qk.butterfly:id/v_list
+  - android.widget.LinearLayout
+#第五步：点击保存
+bb: com.qk.butterfly:id/tv_top_right
+
+#个性签名编辑
+#第一步：单击我的
+ee:
+    - android:id/tabs
+    - android.widget.RelativeLayout
+#第二步：点击编辑资料
+bianb: com.qk.butterfly:id/v_me_detail
+#第三步：点击个性签名
+qian: com.qk.butterfly:id/v_profile_note
+#第四步：写
+xie: com.qk.butterfly:id/et_note
+#第五步：单击返回
+fan: com.qk.butterfly:id/v_back
+#第六步：单击保存
+cun: com.qk.butterfly:id/et_note
+
+
+
+
+
+
